@@ -16,7 +16,7 @@ const Home = () => {
                             Check out our online computer programming quizzes to enhance your knowledge, learn new things or prepare for an upcoming test. Made up of well-researched and interesting quiz questions, each and every quiz here can test your awareness and grasp of the subject.
                         </p>
                     </div>
-                    <div className='flex flex-col justify-start md:flex-row'>
+                    <div className='flex flex-col justify-start sm:flex-row'>
                         <Link to='/topics'>
                             <button type="button" className="px-8 py-3 font-semibold rounded bg-orange-400 hover:bg-orange-600 text-gray-800 hover:text-white">Get Started</button>
                         </Link>
