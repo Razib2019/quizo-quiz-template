@@ -24,7 +24,7 @@ const Header = () => {
                                 aria-label="Home"
                                 title="Home"
                                 className={({ isActive }) =>
-                                    isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                    isActive ? 'text-lg font-bold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-bold tracking-wide text-slate-700'}
                             >
                                 Home
                             </NavLink>
@@ -35,7 +35,7 @@ const Header = () => {
                                 aria-label="Topics"
                                 title="Topics"
                                 className={({ isActive }) =>
-                                    isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                    isActive ? 'text-lg font-bold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-bold tracking-wide text-slate-700'}
                             >
                                 Topics
                             </NavLink>
@@ -46,7 +46,7 @@ const Header = () => {
                                 aria-label="Statistics"
                                 title="Statistics"
                                 className={({ isActive }) =>
-                                    isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                    isActive ? 'text-lg font-bold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-bold tracking-wide text-slate-700'}
                             >
                                 Statistics
                             </NavLink>
@@ -57,7 +57,7 @@ const Header = () => {
                                 aria-label="Blog"
                                 title="Blog"
                                 className={({ isActive }) =>
-                                    isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                    isActive ? 'text-lg font-bold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-bold tracking-wide text-slate-700'}
                             >
                                 Blog
                             </NavLink>
@@ -123,7 +123,7 @@ const Header = () => {
                                                     aria-label="Home"
                                                     title="Home"
                                                     className={({ isActive }) =>
-                                                        isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                                        isActive ? 'text-lg font-semibold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-semibold tracking-wide text-slate-700'}
                                                 >
                                                     Home
                                                 </NavLink>
@@ -134,7 +134,7 @@ const Header = () => {
                                                     aria-label="Topics"
                                                     title="Topics"
                                                     className={({ isActive }) =>
-                                                        isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                                        isActive ? 'text-lg font-semibold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-semibold tracking-wide text-slate-700'}
                                                 >
                                                     Topics
                                                 </NavLink>
@@ -145,7 +145,7 @@ const Header = () => {
                                                     aria-label="Statistics"
                                                     title="Statistics"
                                                     className={({ isActive }) =>
-                                                        isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                                        isActive ? 'text-lg font-semibold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-semibold tracking-wide text-slate-700'}
                                                 >
                                                     Statistics
                                                 </NavLink>
@@ -156,7 +156,7 @@ const Header = () => {
                                                     aria-label="Blog"
                                                     title="Blog"
                                                     className={({ isActive }) =>
-                                                        isActive ? 'font-medium tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'font-medium tracking-wide text-slate-700'}
+                                                        isActive ? 'text-lg font-semibold tracking-wide text-orange-600 underline decoration-orange-600 underline-offset-8' : 'text-lg font-semibold tracking-wide text-slate-700'}
                                                 >
                                                     Blog
                                                 </NavLink>
