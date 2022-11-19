@@ -7,6 +7,7 @@ const TopicDetails = () => {
     const topicData = loaderData.data;
     // console.log(topicData);
     const { name, questions, total } = topicData;
+
     return (
         <div>
             <h2 className=' font-sans text-start sm:text-4xl text-2xl font-bold text-orange-400 mt-5 2xl:mx-36 xl:mx-24 lg:mx-16 md:mx-12 sm:mx-6 mx-4'>
@@ -22,7 +23,7 @@ const TopicDetails = () => {
                         ></Question>)
                     }
                 </div>
-                <div className=" lg:col-span-1 col-span-4 border bg-red-100 border-gray-200 h-52 p-6 rounded-lg">
+                <div className=" lg:col-span-1 col-span-4 border bg-red-100 border-gray-400  h-52 p-6 rounded-lg">
                     <h2 className=' font-sans text-start text-2xl mb-2 font-bold text-orange-600'>Result</h2>
                     <div className=' font-sans text-start text-xl font-bold text-black mb-2'>
                         <p>Total Quiz: {total}</p>

@@ -10,6 +10,11 @@ const Questions = (props) => {
     const { index } = props;
     // console.log(props.question);
 
+    const handleCheckRightAnswer = (index) => {
+        // console.log(index, id);
+
+    }
+
     const handleCorrectAnswer = (correctAnswer) => {
         toast.success(correctAnswer, { autoClose: 1000 })
     }
@@ -18,7 +23,7 @@ const Questions = (props) => {
     return (
         <div>
             <div className="grid grid-cols-4 mb-10">
-                <div className="col-span-4 border bg-red-100 border-gray-200 p-6 rounded-lg">
+                <div className="col-span-4 border bg-red-100 border-gray-400 p-6 rounded-lg">
                     <div className='flex justify-between items-center'>
                         <div className='text-orange-500 sm:text-xl text-lg text-start font-bold'>
                             Quiz {index + 1}: {question.replace(/(<([^>]+)>)/ig, '')}
@@ -35,6 +40,7 @@ const Questions = (props) => {
                                 key={index}
                                 option={option}
                                 index={index}
+                                handleCheckRightAnswer={handleCheckRightAnswer}
                             ></Option>)
                         }
                     </div>
