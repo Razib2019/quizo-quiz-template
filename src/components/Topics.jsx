@@ -1,10 +1,11 @@
 import React from 'react';
-import { useLoaderData } from "react-router-dom";
+import { useContext } from 'react';
+import { TopicsContext } from '../layouts/Main';
 import Topic from './Topic';
 
 const Topics = () => {
-    const loaderData = useLoaderData();
-    const topics = loaderData.data;
+    const topics = useContext(TopicsContext);
+    // console.log(topics);
     return (
         <div>
             <h2 className=' font-sans text-center sm:text-4xl text-2xl font-bold text-orange-400 mt-6'>

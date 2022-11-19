@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
-import { EyeSlashIcon, EyeIcon } from '@heroicons/react/24/solid';
+import React from 'react';
+import { EyeIcon } from '@heroicons/react/24/solid';
 import { toast } from 'react-toastify';
 import Option from './Option';
+
 
 
 const Questions = (props) => {
     const { correctAnswer, question, options, id } = props.question;
     const { index } = props;
-    console.log(props.question);
+    // console.log(props.question);
 
-    const [open, setOpen] = useState(true);
+    const handleCorrectAnswer = (correctAnswer) => {
+        toast.success(correctAnswer, { autoClose: 1000 })
+    }
 
 
     return (
@@ -21,10 +24,8 @@ const Questions = (props) => {
                             Quiz {index + 1}: {question.replace(/(<([^>]+)>)/ig, '')}
                         </div>
                         <div className='md:px-6 px-2'>
-                            <div onClick={() => setOpen(!open)} className=" h-6 w-6 text-orange-500">
-                                {
-                                    open ? <EyeSlashIcon /> : <EyeIcon />
-                                }
+                            <div className=" h-6 w-6 text-orange-500">
+                                <EyeIcon onClick={() => handleCorrectAnswer(correctAnswer)} />
                             </div>
                         </div>
                     </div>
