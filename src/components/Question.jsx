@@ -11,7 +11,12 @@ const Questions = (props) => {
     // console.log(props.question);
 
     const handleCheckRightAnswer = (index) => {
-        // console.log(index, id);
+        if (correctAnswer === options[index]) {
+            toast.success('Success: Right Answer', { autoClose: 1000 })
+        }
+        else {
+            toast.error('Incorrect: Wrong Answer', { autoClose: 1000 })
+        }
 
     }
 
