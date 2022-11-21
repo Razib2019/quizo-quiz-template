@@ -3,6 +3,7 @@
 ## Live Link
 Hosted in Netlify -> [Quizo](https://quizo-quiz-template.netlify.app/)
 
+## What was done in this Quizo Project
 This React Project Will help People who want to test their Basic web development knowledge On the 4 different different topics. The topics are On React, JavaScript, Css and Git.
 
 => Home Page was covered into two section. Left section was writing Intro part of the project and Right section was covered with an animation. And user can choose their topics click on get start button or topics from the navbar Option.
