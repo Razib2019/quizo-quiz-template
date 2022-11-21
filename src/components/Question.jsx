@@ -6,7 +6,7 @@ import Option from './Option';
 
 
 const Questions = (props) => {
-    const { correctAnswer, question, options, id } = props.question;
+    const { correctAnswer, question, options } = props.question;
     const { index } = props;
     // console.log(props.question);
 
